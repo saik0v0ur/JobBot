@@ -11,8 +11,8 @@ URL = f"https://api.jobright.ai/jobs?query={QUERY.replace(' ', '%20')}&sort=rece
 STATE_FILE = "seen.json"
 COMPANY_FILE = "companies.txt"
 
-TELEGRAM_TOKEN = "8576999816:AAGBc-LZJHBqEElA-gc41v4da5eF_0TA2Ts"
-CHAT_ID = "6634736969"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 # ----------------------------
 # HELPERS
