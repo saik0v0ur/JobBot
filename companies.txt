@@ -5,12 +5,14 @@ Citadel|Tier 1
 HRT|Tier 1
 Google|Tier 1
 Netflix|Tier 1
+Amazon|Tier 1
 Palantir|Tier 2
 Two Sigma|Tier 2
 Radix Trading|Tier 2
 Optiver|Tier 2
 Jump Trading|Tier 2
 Meta|Tier 2
+Microsoft|Tier 2
 Nvidia|Tier 2
 Databricks|Tier 3
 RenTec|Tier 3
@@ -28,13 +30,11 @@ Roblox|Tier 4
 Scale AI|Tier 4
 Capital One|Tier 4
 Figma|Tier 5
-Microsoft|Tier 5
 Notion|Tier 5
 DRW|Tier 5
 Ramp|Tier 5
 Robinhood|Tier 5
 Cursor|Tier 5
-Amazon|Tier 6
 Bloomberg|Tier 6
 Airbnb|Tier 6
 LinkedIn|Tier 6
