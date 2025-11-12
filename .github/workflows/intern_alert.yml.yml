@@ -1,25 +1,20 @@
-name: Jobright Alerts
+name: Intern-List Alerts
 
 on:
   schedule:
     - cron: "*/30 * * * *"   # every 30 minutes
-  workflow_dispatch:          # allows manual runs from the Actions tab
+  workflow_dispatch:
 
 jobs:
-  check:
+  scrape:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Run alert script
+      - run: pip install requests beautifulsoup4
+      - name: Run alert bot
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
