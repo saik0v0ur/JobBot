@@ -26,6 +26,7 @@ Susquehanna|Tier 4
 Uber|Tier 4
 Roblox|Tier 4
 Scale AI|Tier 4
+Capital One|Tier 4
 Figma|Tier 5
 Microsoft|Tier 5
 Notion|Tier 5
@@ -40,6 +41,7 @@ LinkedIn|Tier 6
 Akuna Capital|Tier 6
 Perplexity|Tier 6
 Coinbase|Tier 6
+Tencent|Tier 6
 Datadog|Tier 7
 Pinterest|Tier 7
 DoorDash|Tier 7
@@ -51,13 +53,16 @@ X|Tier 7
 SpaceX|Tier 7
 ByteDance|Tier 7
 Spotify|Tier 7
+TSMC|Tier 7
 Anduril|Tier 7
 Snap|Tier 7
+ASML|Tier 7
 Neuralink|Tier 7
 Tesla|Tier 7
 Twitch|Tier 7
 MongoDB|Tier 7
 Square|Tier 7
+StubHub|Tier 7
 Slack|Tier 7
 Lyft|Tier 7
 Reddit|Tier 7
@@ -66,7 +71,11 @@ Dropbox|Tier 7
 Blackrock|Tier 7
 Cloudflare|Tier 7
 Mistral|Tier 7
+Visa|Tier 7
+Mastercard|Tier 7
+American Express|Tier 8
 Adobe|Tier 8
+SAP|Tier 8
 Duolingo|Tier 8
 C3 AI|Tier 8
 Rippling|Tier 8
@@ -74,8 +83,14 @@ Midjourney|Tier 8
 Asana|Tier 8
 Riot Games|Tier 8
 Shopify|Tier 8
+Nintendo|Tier 8
+Activision Blizzard|Tier 8
+Epic Games|Tier 8
+Sony|Tier 8
 Oracle|Tier 8
 PayPal|Tier 8
+Siemens|Tier 8
+CrowdStrike|Tier 8
 AMD|Tier 8
 Lovable|Tier 8
 Flow Traders|Tier 8
@@ -86,15 +101,20 @@ Instacart|Tier 9
 Goldman Sachs|Tier 9
 Nuro|Tier 9
 Figure|Tier 9
+Electronic Arts|Tier 9
 JPMC|Tier 9
+Rivian|Tier 9
+Lucid Motors|Tier 9
+Micron|Tier 9
 NASA|Tier 9
 Blue Origin|Tier 9
 Glean|Tier 9
 Okta|Tier 9
 Brex|Tier 9
 Cruise|Tier 9
-Capital One|Tier 9
+Broadcom|Tier 9
 Morgan Stanley|Tier 9
+Texas Instruments| Tier 9
 Intuit|Tier 9
 HubSpot|Tier 9
 Canva|Tier 9
@@ -103,7 +123,14 @@ Airtable|Tier 9
 Twilio|Tier 9
 Quora|Tier 9
 Autodesk|Tier 9
+Dell|Tier 9
+Boeing|Tier 9
+Airbus|Tier 9
+Caterpillar|Tier 9
+3M|Tier 9
+GE Aerospace|Tier 9
 Box|Tier 9
+Hewlett Packard Enterprise|Tier 9
 Hulu|Tier 9
 DocuSign|Tier 10
 IBM|Tier 10
@@ -112,6 +139,8 @@ Red Hat|Tier 10
 Affirm|Tier 10
 Tableau|Tier 10
 GrubHub|Tier 10
+Paramount|Tier 10
+Warner Bros Discovery|Tier 10
 ServiceNow|Tier 10
 VMware|Tier 10
 Cisco|Tier 10
@@ -119,6 +148,7 @@ Ebay|Tier 10
 Etsy|Tier 10
 Yelp|Tier 10
 Intel|Tier 10
+Motorola| Tier 10
 Zed|Tier 10
 Expedia|Tier 10
 Walmart|Tier 10
@@ -130,9 +160,12 @@ Bolt|Tier 10
 Samsara|Tier 10
 Zillow|Tier 10
 Indeed|Tier 10
+Workiva|Tier 10
 Qualtrics|Tier 10
 Postmates|Tier 10
+HP|Tier 10
 Nutanix|Tier 10
+Seagate|Tier 10
 Retool|Tier 10
 Redfin|Tier 10
 Addepar|Tier 11
