@@ -140,7 +140,7 @@ def main():
     print(f"🧾 Checking {len(all_jobs)} total listings...")
 
     for job in all_jobs:
-        job_id = f"{job['Position']}@{job['Company']}"
+        job_id = job["Link"].strip()  # use the link as a unique identifier
         if job_id in seen:
             continue
         seen.add(job_id)
