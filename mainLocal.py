@@ -2,6 +2,8 @@ import os
 import json
 import time
 import requests
+import re
+
 from bs4 import BeautifulSoup
 from collections import defaultdict
 from playwright.sync_api import sync_playwright
@@ -139,15 +141,17 @@ def main():
     print(f"🧾 Checking {len(all_jobs)} total listings...")
 
     for job in all_jobs:
-        job_id = f"{job['Position']}@{job['Company']}"
+        job_id = job["Link"].strip()  # use the link as a unique identifier
         if job_id in seen:
             continue
         seen.add(job_id)
 
         matched_company = None
         for name in companies.keys():
-            if name in job["Company"].lower():
+            pattern = r"\b" + re.escape(name) + r"\b"
+            if re.search(pattern, job["Company"], flags=re.IGNORECASE):
                 matched_company = name
+                print(f"🔍 Matched company: {job['Company']}  →  from companies.txt entry: {name}")
                 break
 
         if not matched_company:

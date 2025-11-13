@@ -147,8 +147,10 @@ def main():
 
         matched_company = None
         for name in companies.keys():
-            if name in job["Company"].lower():
+            pattern = r"\b" + re.escape(name) + r"\b"
+            if re.search(pattern, job["Company"], flags=re.IGNORECASE):
                 matched_company = name
+                print(f"🔍 Matched company: {job['Company']}  →  from companies.txt entry: {name}")
                 break
 
         if not matched_company:
