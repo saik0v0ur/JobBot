@@ -2,6 +2,8 @@ import os
 import json
 import time
 import requests
+import re
+
 from bs4 import BeautifulSoup
 from collections import defaultdict
 from playwright.sync_api import sync_playwright
